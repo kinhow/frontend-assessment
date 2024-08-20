@@ -1,6 +1,6 @@
 import { createContext, useContext, useReducer } from 'react';
-import { EmployeeDetails, EmployeeStateContext } from '@/types';
 import { initialFormState, employeeFormReducer } from '@/reducer';
+import type { EmployeeDetails, EmployeeStateContext } from '@/types';
 
 const EmployeeStateContext = createContext<EmployeeStateContext>({
   state: {} as EmployeeDetails,
