@@ -5,7 +5,7 @@ export const initialFormState: EmployeeDetails = {
   firstName: '',
   lastName: '',
   avatar: '',
-  id: null,
+  id: undefined,
 };
 
 export type EmployeeFormAction =
