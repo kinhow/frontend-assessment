@@ -1,0 +1,1 @@
+export { useFetchUserDetails } from './useFetchUserDetails';
